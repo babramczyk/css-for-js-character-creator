@@ -9,10 +9,19 @@ body {
   margin: 0;
 }
 
+body:before{
+  content: "";
+  position: fixed;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
+  background: hsl(195deg, 20%, 86%);
+}
+
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
