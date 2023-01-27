@@ -9,7 +9,7 @@
 
 .header {
   padding-bottom: 64px;
-  width: 65%;
+  width: 100%;
 }
 
 .title {
@@ -28,11 +28,17 @@
 .characterWrapper {
   width: 35%;
   position: fixed;
-  top: 128px;
-  right: 200px;
   min-height: 500px;
 }
 
+.contentWrapper {
+  width: 65%;
+}
+
+.contentWrapper, .characterWrapper {
+  display: inline-block;
+}
+
 .controlColumn {
-  width: 50%;
+  width: calc(50 / 65 * 100%);
 }
