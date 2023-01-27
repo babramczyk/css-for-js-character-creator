@@ -29,6 +29,8 @@
   width: 35%;
   position: fixed;
   min-height: 500px;
+  bottom: 5%;
+  top: 15%;
 }
 
 .contentWrapper {
